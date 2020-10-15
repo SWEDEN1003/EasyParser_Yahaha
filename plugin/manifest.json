@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "EasyParser",
 	"version": "1.0.0",
-	"description": "EasyParser @ https://www.yahaha.online/auth/register",
+	"description": "EasyParser @ https://www.yahaha.plus/auth/register",
 	"icons":{
 		"16":"img/icon_16.png",
 		"48":"img/icon_48.png",
@@ -18,7 +18,7 @@
 	},
 	"content_scripts":[
 		{
-			"matches": ["https://www.yahaha.online/auth/register"],
+			"matches": ["https://www.yahaha.plus/auth/register"],
 			"js": ["js/jquery-1.8.3.js", "js/content-script.js"],
 			"run_at": "document_end"
 		}
