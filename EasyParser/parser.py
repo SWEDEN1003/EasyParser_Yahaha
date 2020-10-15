@@ -18,7 +18,7 @@ class Parser(BaseHTTPRequestHandler):
         if '?' in self.path:
             self.queryString = urllib.parse.unquote(self.path.split('?',1)[1])
             params = urllib.parse.parse_qs(self.queryString)
-            code_url = 'https://www.yahaha.online' + params['url'][0]
+            code_url = 'https://www.yahaha.plus' + params['url'][0]
             cookie = 'PHPSESSID=' + params['PHPSESSID'][0]
             headers = {
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
