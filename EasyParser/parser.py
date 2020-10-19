@@ -75,7 +75,7 @@ def log(text):
 
 def main():
     HOST = "127.0.0.1"
-    PORT = 43271
+    PORT = 7001
     ADDR = (HOST,PORT)
     try:
         server = HTTPServer(ADDR,Parser)
